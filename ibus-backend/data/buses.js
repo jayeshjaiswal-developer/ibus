@@ -1,0 +1,123 @@
+const buses = [
+  {
+    operator: "Express Travels",
+    busNumber: "IB101",
+    type: "AC Sleeper",
+    from: "Hyderabad",
+    to: "Bangalore",
+    departure: "21:00",
+    arrival: "07:00",
+    price: 599,
+    totalSeats: 36,
+  },
+
+  {
+    operator: "City Travels",
+    busNumber: "IB102",
+    type: "AC Seater",
+    from: "Hyderabad",
+    to: "Bangalore",
+    departure: "22:30",
+    arrival: "08:30",
+    price: 699,
+    totalSeats: 36,
+  },
+
+  {
+    operator: "Roadways Express",
+    busNumber: "IB103",
+    type: "Non-AC Sleeper",
+    from: "Hyderabad",
+    to: "Bangalore",
+    departure: "20:00",
+    arrival: "06:30",
+    price: 499,
+    totalSeats: 36,
+  },
+
+  {
+    operator: "South India Travels",
+    busNumber: "IB201",
+    type: "AC Sleeper",
+    from: "Hyderabad",
+    to: "Chennai",
+    departure: "19:30",
+    arrival: "07:30",
+    price: 799,
+    totalSeats: 36,
+  },
+
+  {
+    operator: "Metro Travels",
+    busNumber: "IB202",
+    type: "AC Seater",
+    from: "Hyderabad",
+    to: "Chennai",
+    departure: "21:00",
+    arrival: "09:00",
+    price: 699,
+    totalSeats: 36,
+  },
+
+  {
+    operator: "Orange Travels",
+    busNumber: "IB301",
+    type: "AC Sleeper",
+    from: "Bangalore",
+    to: "Chennai",
+    departure: "22:00",
+    arrival: "06:00",
+    price: 649,
+    totalSeats: 36,
+  },
+
+  {
+    operator: "National Travels",
+    busNumber: "IB302",
+    type: "Non-AC Sleeper",
+    from: "Bangalore",
+    to: "Chennai",
+    departure: "20:30",
+    arrival: "05:30",
+    price: 499,
+    totalSeats: 36,
+  },
+
+  {
+    operator: "Express Travels",
+    busNumber: "IB401",
+    type: "AC Sleeper",
+    from: "Mumbai",
+    to: "Pune",
+    departure: "22:00",
+    arrival: "05:00",
+    price: 599,
+    totalSeats: 36,
+  },
+
+  {
+    operator: "City Travels",
+    busNumber: "IB402",
+    type: "AC Seater",
+    from: "Delhi",
+    to: "Jaipur",
+    departure: "21:30",
+    arrival: "05:30",
+    price: 549,
+    totalSeats: 36,
+  },
+
+  {
+    operator: "Royal Travels",
+    busNumber: "IB501",
+    type: "AC Sleeper",
+    from: "Delhi",
+    to: "Lucknow",
+    departure: "20:00",
+    arrival: "07:00",
+    price: 899,
+    totalSeats: 36,
+  },
+];
+
+module.exports = buses;
